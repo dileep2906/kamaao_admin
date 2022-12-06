@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.StoreHeaderImage{
+    background-color: #fff;
+    height: 300px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}

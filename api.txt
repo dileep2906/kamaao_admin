@@ -1,0 +1,89 @@
+// frontend
+
+user registration and login with phone =>http://localhost:8000/api/user_login/
+
+user verify with otp =>http://localhost:8000/api/verify_user/
+
+
+/* ---------------------- Admin Api Start ----------------------*/
+//for admin login
+Route::middleware(['auth:sanctum'])->group(function (){
+    http://localhost:8000/api/logout',[AuthController::class,'logout']);
+
+});
+http://localhost:8000/api/admin_register'
+http://localhost:8000/api/add_employee',[AuthController::class,'add_employee']);
+http://localhost:8000/api/view_employee',[AuthController::class,'view_employee']);
+http://localhost:8000/api/enable_employee/{id}',[AuthController::class,'enable_employee']);
+http://localhost:8000/api/disable_employee/{id}',[AuthController::class,'disable_employee']);
+http://localhost:8000/api/edit_employee/{id}',[AuthController::class,'edit']);
+http://localhost:8000/api/update_employee/{id}',[AuthController::class,'update_employee']);
+
+http://localhost:8000/api/delete_employee/{id}',[AuthController::class,'employe_delete']);
+
+http://localhost:8000/api/admin_login',[AuthController::class,'login']);
+
+//login with google
+
+http://localhost:8000/api/logingoogle',[AuthController::class,'google_login']);
+
+// Company
+
+http://localhost:8000/api/add_company',[CompanyController::class,'store']);
+http://localhost:8000/api/view_company',[CompanyController::class,'index']);
+http://localhost:8000/api/edit_company/{id}',[CompanyController::class,'edit']);
+http://localhost:8000/api/update_company/{id}',[CompanyController::class,'update']);
+http://localhost:8000/api/delete_company/{id}',[CompanyController::class,'delete']);
+http://localhost:8000/api/enable_company/{id}',[CompanyController::class,'enable_company']);
+http://localhost:8000/api/disable_company/{id}',[CompanyController::class,'disable_company']);
+http://localhost:8000/api/fetch_company/{company_legal_name}',[CompanyController::class,'select_company']);
+
+
+
+//Jobs
+
+http://localhost:8000/api/add_job
+http://localhost:8000/api/view_jobs
+http://localhost:8000/api/edit_jobs/{id}
+http://localhost:8000/api/update_jobs/{id}
+http://localhost:8000/api/delete_jobs/{id}
+http://localhost:8000/api/status_change/{id}
+
+//Tasks
+
+http://localhost:8000/api/add_task
+http://localhost:8000/api/view_task
+http://localhost:8000/api/edit_task/{id}
+http://localhost:8000/api/update_task/{id}
+http://localhost:8000/api/delete_task/{id}
+http://localhost:8000/api/disable_task/{id}
+http://localhost:8000/api/enable_task/{id}
+
+//Project 
+
+http://localhost:8000/api/add_project',[ProjectController::class,'store']);
+http://localhost:8000/api/view_project',[ProjectController::class,'index']);
+http://localhost:8000/api/edit_task/{id}',[TaskController::class,'edit']);
+http://localhost:8000/api/update_task/{id}',[TaskController::class,'update']);
+http://localhost:8000/api/delete_task/{id}',[TaskController::class,'delete_task']);
+http://localhost:8000/api/disable_task/{id}',[TaskController::class,'disable_status']);
+http://localhost:8000/api/enable_task/{id}',[TaskController::class,'enable_status']);
+
+
+//dynamic_dropdown
+
+http://localhost:8000/api/state',[dynamic_dropdownController::class,'state']);
+http://localhost:8000/api/city/{id}',[dynamic_dropdownController::class,'city']);
+http://localhost:8000/api/area/{id}',[dynamic_dropdownController::class,'area']);
+
+/* ---------------------- Admin Api End ----------------------*/
+
+
+/* ---------------------- Front Api Start ----------------------*/
+
+//user registration
+http://localhost:8000/api/user_login',[UserRegistrationController::class,'phone_number']);
+http://localhost:8000/api/verify_user',[UserRegistrationController::class,'verify_number']);
+
+
+/* ---------------------- Front Api End ----------------------*/

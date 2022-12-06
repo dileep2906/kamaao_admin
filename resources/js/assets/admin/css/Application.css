@@ -1,0 +1,449 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.MuiToolbar-regular {
+    min-height: 10px !important;
+    background-color: #E4E5E6 !important;
+}
+
+.MuiTableRow-head {
+    background-color: #E4E5E6;
+    margin-bottom: 10px;
+}
+
+.MuiTableCell-paddingNone {
+    padding-inline: 5px !important;
+}
+
+.applicationHeadingText {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 0.035em;
+    text-transform: capitalize;
+    color: #FF7754;
+}
+
+.paddingTopBottom20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.ApplicationButton {
+    width: 120px;
+    height: 35px;
+    left: 960px;
+    top: 134px;
+    background: #C4C4C4;
+    border-radius: 9px;
+    margin-left: 10px;
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.005em;
+    color: rgba(49, 38, 81, 0.7);
+}
+
+.ApplicationButton:hover {
+    color: rgba(49, 38, 81, 1);
+}
+
+.ApplicationButtonBox {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.paddingZero {
+    padding: 0px !important;
+}
+
+.left10 {
+    position: relative;
+    padding-left: 10px !important;
+}
+
+.right10 {
+    position: relative;
+    padding-right: 10px !important;
+}
+
+
+/*********************************************************
+            Application View start 
+***********************************************************/
+.paddingLeftRight {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.ApplicantBox {
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    padding-left: 50px !important;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.ApplicantBox P {
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 0.035em;
+    text-transform: capitalize;
+    color: #ACACAD;
+}
+
+.bgWhite {
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.marginTop10 {
+    margin-top: 10px;
+}
+
+.WorkingBox {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 20px !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.DownIcon {
+    color: #7AC356;
+}
+
+.WorkingBox p {
+    letter-spacing: 0.035em;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 13px;
+    color: #000000;
+}
+
+.custom-selectAplication {
+    border-radius: 6px !important;
+    margin-top: 5px;
+    width: 80%;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background: transparent !important;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.035em;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.paddingLeft50 {
+    padding-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 35px;
+}
+
+.ApplicationViewProfile {
+    background-image: url(../../images/ApplicationView/Ptofile_Image.png);
+    background-size: cover;
+    height: 120px;
+    width: 120px;
+}
+
+.Name_Text {
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 0.035em;
+    text-transform: capitalize;
+    color: #333333;
+}
+
+.ID_Text {
+    font-weight: 400;
+    font-size: 11px;
+    letter-spacing: 0.035em;
+    text-transform: capitalize;
+    color: #FF7754;
+}
+
+.Gender_Text {
+    font-weight: 400;
+    font-size: 11px;
+    letter-spacing: 0.035em;
+    text-transform: capitalize;
+    color: #ACACAD;
+}
+
+.Contact_Text {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.035em;
+    text-transform: capitalize;
+    color: #333333;
+}
+
+.margin20per {
+    margin-top: 20% !important;
+}
+
+.RemarkText {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.035em;
+    text-transform: capitalize;
+    color: #333333;
+}
+
+.RemarkDetailBox {
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
+.RemarkText {
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0.035em;
+    text-transform: capitalize;
+    color: #333333;
+}
+
+.RemarkDetailBox p {
+    font-weight: 400;
+    font-size: 11px;
+    letter-spacing: 0.035em;
+    text-transform: capitalize;
+    color: #757575;
+
+}
+
+.border-bottom {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.CategoryText {
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.035em;
+    text-transform: capitalize;
+    color: #ACACAD;
+}
+
+.Job_Text {
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.035em;
+    text-transform: capitalize;
+    color: #333333;
+}
+
+.leftBorder {
+    border-left: 2px solid #42C65C;
+}
+
+.custom-selectTimeline {
+    border-radius: 6px !important;
+    margin-top: 5px;
+    width: 80%;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background: transparent !important;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.035em;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.paddingLeft30 {
+    padding-left: 25px !important;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.dateHeding {
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 0.035em;
+    text-transform: capitalize;
+    color: #333333;
+}
+
+.paddingLeft45 {
+    padding-left: 45px !important;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.paddingLeft45 p {
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.035em;
+    text-transform: capitalize;
+    color: #757575;
+}
+
+.page-item a {
+    /* background-color: #312651 !important; */
+    background-color: transparent !important;
+    border: none;
+    color: #333333;
+
+}
+
+.active {
+    background-color: transparent !important;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff !important;
+    background-color: #312651 !important;
+    border-radius: 100% !important;
+    border: none;
+}
+
+.paginationBox {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+}
+
+.page-item:last-child {
+    background-color: #585072;
+    border-radius: 2px;
+    height: 35px;
+}
+
+.page-link span {
+    color: #FFFFFF !important;
+    font-size: 20px;
+}
+
+.page-item:last-child .page-link {
+    padding-top: 1px !important;
+}
+
+@media (min-width: 540px) {
+    .TimelineSEction {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .Width40per {
+        width: 40% !important;
+    }
+
+    .custom-selectTimeline {
+        width: 40%;
+    }
+
+    .custom-selectTimeline1 {
+        width: 55%;
+    }
+}
+
+/***********************************
+         Application View End 
+************************************/
+
+
+/****************************************
+         Application View Second start 
+*****************************************/
+.paddingBottom30 {
+    padding-bottom: 30px;
+}
+
+.custom-UpdateStatus {
+    width: 60%;
+}
+
+.UpdateStatusBox {
+    height: 120px;
+    padding-top: 20px;
+    padding-left: 30px !important;
+    padding-right: 5px !important;
+}
+
+.UpdateStatusBox1 {
+    padding-top: 20px;
+    padding-left: 30px !important;
+    padding-right: 5px !important;
+    border-bottom: 20px;
+}
+
+.UpdateStatusBox p {
+    background-color: rgba(49, 38, 81, 0.2);
+    margin-left: 5px !important;
+    margin-bottom: 5px !important;
+    border-radius: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+    font-weight: 400;
+    font-size: 9px;
+    letter-spacing: 0.005em;
+    color: #ACACAD;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.UpdateStatusBox1 p {
+    background-color: rgba(49, 38, 81, 0.2);
+    margin-left: 5px !important;
+    margin-bottom: 5px !important;
+    border-radius: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+    font-weight: 400;
+    font-size: 9px;
+    letter-spacing: 0.005em;
+    color: #ACACAD;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.RemarkBox {
+    padding-top: 20px;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    border-bottom: 20px;
+    margin-top: 40% !important;
+
+}
+
+.UpdateStatusBox1 .active {
+    background-color: #FF7754 !important;
+    color: #FFFFFF;
+}
+
+/****************************************
+         Application View Second End 
+*****************************************/
+@media (max-width: 540px) {
+    .sb-nav-fixed #layoutSidenav #layoutSidenav_content {
+        padding-left: 240px !important;
+        top: 56px;
+    }
+
+    .paddingLeft50 {
+        padding-left: 10px !important;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 35px;
+    }
+}

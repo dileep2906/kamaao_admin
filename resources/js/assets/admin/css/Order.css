@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    .MuiToolbar-regular {
+        min-height: 10px !important;
+        background-color:#E4E5E6 !important;
+    }
+    .MuiTableRow-head{
+        background-color:#E4E5E6;
+    margin-bottom: 10px;
+    }
+    .MuiTableCell-paddingNone {
+        padding-inline: 5px !important;
+    }
+    .applicationHeadingText{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 0.035em;
+    text-transform: capitalize;
+    color: #333333;
+    }
+    .paddingTopBottom20{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
+    .ApplicationButton{
+    width: 120px;
+    height: 35px;
+    left: 960px;
+    top: 134px;
+    background: #C4C4C4;
+    border-radius: 9px;
+    margin-left: 10px;
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.005em;
+    color: rgba(49, 38, 81, 0.7);
+    }
+    
+    .ApplicationButton:hover{
+        color: rgba(49, 38, 81, 1);
+    }
+    .ApplicationButtonBox{
+     display: flex;
+     justify-content: flex-end;
+    }
+    .paddingZero{
+      padding: 0px !important;
+    }
+    .left10{
+        position: relative;
+        padding-left: 10px !important;
+    }
+    .right10{
+        position: relative;
+        padding-right: 10px !important;
+    }
+    .LinkText .nav-link{
+        display: inline-block !important;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 20px;
+        letter-spacing: 0.035em;
+        text-transform: capitalize;
+        color: #ACACAD;
+        opacity: 0.8;
+    }
+    .LinkText .neviBlue{
+        color: #312651 !important;
+    }
+    .LinkText .nav-link:hover{
+        color: #ACACAD !important;
+        opacity: 1;
+    }
+.OrderHeaderBox{
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+.padding10{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+.MuiTableSortLabel-iconDirectionAsc{
+    display: none !important;
+}
+.Blue{
+    color: #2C7DF3 !important;
+}
+.Orange{
+    color:#DE7F64 !important;
+}
+.FormBackground{
+    background-color: #FFFFFF;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+
+}
+.paddingRL10{
+    padding-right: 11px;
+    padding-left: 11px; 
+}
+.MuiPaper-rounded{
+    border-radius: 0px !important;
+}
+.SearchBox{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.NavSearchBox1 {
+    margin-left: 0px !important;
+    border-radius: 6px !important;
+}
+.Width100per{
+    width: 100% !important;
+    
+}
+.SearchIcon01{
+    color: #C4C4C4 !important;
+    align-self: center;
+    margin-left: 10px;
+}
+.custom-selectRB{
+    border-radius: 6px !important;
+    margin-top: 5px;
+    width: 100%;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background: #E4E5E6 !important;
+}
+
+    @media (max-width: 540px){
+        .sb-nav-fixed #layoutSidenav #layoutSidenav_content {
+            padding-left: 240px !important;
+            top: 56px;
+    }
+    }

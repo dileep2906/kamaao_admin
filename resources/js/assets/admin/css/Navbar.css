@@ -1,0 +1,357 @@
+/* Navbar Background */
+.navbarBackground {
+    background-color: #F5F6F8 !important;
+    box-shadow: 7px 10px 26px #E6E4E6;
+    margin-bottom: 35px;
+    justify-content: space-between !important;
+}
+
+/* navbar button */
+.marginL15 {
+    margin-left: 15px !important;
+}
+
+.NavButton {
+    font-size: 25px !important;
+    color: #333333;
+}
+
+.navbarButton:hover {
+    background-color: #333333;
+    opacity: 0.7;
+}
+
+.TitleTextBox {
+    margin-left: 20px;
+}
+
+.titleText {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.005em;
+    color: #333333;
+}
+
+.NavSearchBox {
+    margin-left: 80px !important;
+    background-color: #EDEDED;
+    ;
+    border-radius: 17px;
+}
+
+.NavSearchBox input {
+    width: 425px;
+    background-color: transparent !important;
+    border: none;
+}
+
+.NavSearchBox input[type="text"] {
+    padding: 8px 40px;
+}
+
+.SearchIcon {
+    align-self: center;
+    margin-left: 10px;
+    color: #FF7754;
+}
+
+.NavSearchBox ::placeholder {
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: 0.035em;
+    color: #333333 !important;
+    opacity: 0.4;
+}
+
+.HeaderMsgBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    background-color: #CCCACC;
+    margin-left: 120px;
+}
+
+.NotificationBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    background-color: #312651;
+}
+
+.MsgIcon {
+    color: #312651;
+
+}
+
+.NotificationIcon {
+    color: #F5F6F8;
+}
+
+.nameBox {
+    height: 36px;
+    margin-left: 6%;
+    padding-top: 4px;
+
+}
+
+.nameText {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.005em;
+    color: #000000;
+}
+
+.AdminText {
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.005em;
+    text-transform: lowercase;
+    color: #FF7754;
+    text-align: right;
+
+}
+
+.ProfileImageBox {
+    height: 51px;
+    width: 51px;
+    border-radius: 100%;
+    margin-left: 10px;
+}
+
+.ProfileImage {
+    background-image: url(../../admin/assets/img/Profile/profile.png);
+    background-size: cover;
+    height: 51px;
+    width: 51px;
+    border-radius: 100%;
+}
+
+.NavSearchBox ::placeholder {
+    font-size: 12px;
+}
+
+.NotificationMessage {
+    display: none;
+}
+.padding_left15{
+    padding-left: 15px;
+    font-weight: bold;
+}
+.padding_Right54{
+    float: left;
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+@media (min-width:1000px) {
+    .margin100 {
+        margin-left: 270px;
+    }
+
+    .margin101 {
+        margin-left: 100px;
+        transition-duration: 0.15s;
+    }
+}
+
+
+
+
+
+@media (max-width:913px) {
+    .TitleTextBox {
+        margin-left: 38px;
+    }
+
+    .NavSearchBox {
+        margin-left: 20px !important;
+    }
+
+    .HeaderMsgBox {
+        margin-left: 0px;
+    }
+
+    .navbar-nav .dropdown {
+        position: absolute;
+        top: 0;
+        right: 60px;
+    }
+
+    .NavbarLogo {
+        display: none;
+    }
+
+    .navbar-brand {
+        display: none;
+    }
+    .nameBox {
+        margin-left: 0%;
+    }
+}
+
+@media (max-width:870px) {
+    .HeaderMsgBox {
+        display: none;
+
+    }
+}
+
+@media (max-width:820px) {
+
+    .NotificationBox {
+        margin-left: 10px;
+    }
+
+    .NotificationMessage {
+        display: block;
+    }
+}
+
+
+@media (max-width:790px) {
+    .HeaderMsgBox {
+        display: none;
+    }
+
+    .NotificationBox {
+        display: none;
+    }
+
+    .dropdown-menu li {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:728px) {
+    .TitleTextBox {
+        display: none;
+    }
+
+    .nameBox {
+        position: absolute;
+        right: 122px;
+
+    }
+
+    .NavSearchBox {
+        margin-left: 80px !important;
+    }
+}
+
+
+@media (max-width:654px) {
+    .navbar button {
+        display: none;
+    }
+
+    .navbar-nav .dropdown {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .nameBox {
+        right: 60px;
+    }
+
+    .TitleTextBox {
+        display: none;
+    }
+
+    .FormPosition {
+        position: absolute;
+        left: 20px;
+    }
+
+    .NavSearchBox input::placeholder {
+        font-size: 12px;
+    }
+
+    .FormPosition .input-group {
+        width: 100%;
+    }
+
+    .NavSearchBox input[type="text"] {
+        padding: 8px 2px;
+    }
+
+}
+
+@media (min-width:540px) {
+     .DisplayNone{
+         display: none;
+     }
+}
+
+@media (max-width:540px) {
+        .nameBox{
+            display: none;
+        }
+        .FormPosition .input-group {
+            width: 95%;
+        }
+        .FormPosition {
+            position: absolute;
+            left: -15px;
+        }
+}
+@media (max-width:540px) {
+        .FormPosition .input-group {
+            width: 90%;
+        }
+}
+
+
+@media (max-width:375px) {
+    .NavSearchBox {
+        margin-left: 10px !important;
+    }
+
+    .NavSearchBox input::placeholder {
+        font-size: 10px;
+    }
+    .FormPosition {
+        position: absolute;
+        left: 58px;
+    }
+    .FormPosition .input-group {
+        width: 100%;
+    }
+    
+
+}
+.notificationnumber
+    {
+    position: relative;
+    color: #e9dede;        
+     
+    }
+
+    .notificationnumber sup
+    {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 800;
+    left: 20px;
+    top: -15px;
+    width: 20px;      
+    height: 20px;
+    border-radius: 50px;
+    background-color: red;
+    position: absolute;
+    color: #e9dede;  
+     
+    }
+

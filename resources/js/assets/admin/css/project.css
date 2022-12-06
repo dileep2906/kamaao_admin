@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.ProjectHeaderImage{
+    background-image: url(../../images/project/ProjectHeadImage.png);
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.ProjectPlusIcon{
+    float: right !important;
+    margin-right:20px !important;
+    margin-top: 10px !important;
+}
+.margintop10{
+    margin-top: 10px !important;
+}
+.cardHeadingBox{
+    display: flex;
+    justify-content: space-between;
+}
+.ThreeDotsBox{
+    text-align: right;
+}
+.CardHeading{
+    font-weight: 600;
+font-size: 17px;
+line-height: 27px;
+letter-spacing: 0.035em;
+text-transform: capitalize;
+color: #000000;
+}
+
+.CardHeading span{
+    font-weight: 500;
+font-size: 12px;
+line-height: 20px;
+letter-spacing: 0.035em;
+text-transform: capitalize;
+color: #7F7F80;
+border-bottom: 1px solid #7F7F80;
+}
+.ThreeDots{
+    color: #7F7F80;
+}
